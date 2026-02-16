@@ -156,3 +156,42 @@ button {
   margin: 12px 24px 0px 0px;
   text-align: end;
 }
+
+.action-container {
+  background-color: var(--white);
+  margin: 0;
+  padding: 100px 350px;
+}
+
+.action-card {
+  background-color: var(--blue);
+  padding: 50px 80px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--white);
+  margin: 0;
+}
+
+.action-text p {
+  max-width: 400px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--white);
+  margin: 12px 0 0 0;
+}
+
+.action-button {
+  padding: 0 60px;
+}
+
+.action-button button {
+  padding: 8px 48px;
+  border: 3px solid var(--white);
+}
