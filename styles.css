@@ -82,8 +82,8 @@ ul {
 
 .hero-image-container {
   overflow: hidden;
-  width: 800px;
-  height: 300px;
+  width: 700px;
+  height: 275px;
 }
 
 button {
@@ -93,4 +93,35 @@ button {
   background-color: var(--blue);
   padding: 6px 32px;
   border-radius: 12px;
+}
+.random-info {
+  margin: 0;
+  padding: 25px 300px 125px;
+}
+
+.random-info h2 {
+  text-align: center;
+  color: var(--dark);
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 75px;
+}
+
+.random-info-container {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+}
+
+.random-info-card {
+  max-width: 250px;
+  text-align: center;
+}
+
+.random-info-image {
+  overflow: hidden;
+  border-radius: 25px;
+  border: 3px solid var(--blue);
+  width: 250px;
+  height: 250px;
 }
