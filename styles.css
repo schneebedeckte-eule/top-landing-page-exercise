@@ -125,3 +125,34 @@ button {
   width: 250px;
   height: 250px;
 }
+
+.quote-container {
+  background-color: var(--light-grey);
+  padding: 150px 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  max-width: 800px;
+}
+
+.quote-text {
+  color: var(--dark);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.quote-credit {
+  color: var(--dark);
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0;
+  margin: 12px 24px 0px 0px;
+  text-align: end;
+}
